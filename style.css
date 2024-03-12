@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* ?first page background */
+.first-container{
+    background-image: url(back-2.jpg);
+    height: max-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 69%;
+    opacity: .8;
+}
+/* ?top bar */
+.top-bar{
+    background-color: transparent;
+    width: 100vw;
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px;
+    justify-content: space-between;
+}
+/* ? links*/
+a{
+    color: goldenrod;
+    text-decoration: none;
+    padding: 0px 10px ;
+    font-size: small;
+    font-weight: 600;
+    font-family: "poppins";
+}
+a:hover{
+    text-decoration: underline;
+    color: bisque;
+}
+/* ?first page heading */
+h1{
+    font-family: "Montserrat";
+    text-align: center;
+    color: rgb(232, 232, 42);
+    margin: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px
+}
+/* ?first page para */
+.first-page p{
+    text-align: center;
+    color: rgba(243, 243, 98, 0.989);
+    font-family: "poppins";
+    margin: 30px 5px;
+}
+/* ?get button */
+.btn{
+    text-align: center;
+}
+.get{
+    margin: 20px 10px;
+    padding: 10px 50px;
+    outline: none;
+    background-color:transparent;
+    color: bisque;
+    font-weight: 600;
+    font-family:"Montserrat";
+    cursor: pointer;
+}
+.get:hover{
+    background-color: blue;
+    color: whitesmoke;
+    outline: whitesmoke;
+}
+/* ?icons */
+.accounts{
+    text-align: center;
+    margin: 10px 10px 0px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+/* todo second page */
+.second-container{
+    background-color: aliceblue;
+    margin: 0px;
+    height: 69%;
+    width: 100vw;
+
+}
+/* ?all headings */
+h2{
+    color: black;
+    text-align: center;
+    font-family:"Montserrat";
+    margin: 0px 10px 30px;
+    padding: 50px 0px 20px;
+}
+/* ?about page */
+.second-page{
+    display: flex;
+    column-gap: 30px;
+    margin: 20px 20px 0px;
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .second-page{
+        flex-wrap: wrap;
+    }
+
+}
+/* ?side heading */
+.side-head{
+    font-family:"Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0px 0px;
+}
+/* ?about para */
+.para{
+    margin: 10px 0px ;
+    padding: 20px 5px;
+    font-family: "poppins";
+}
+/* ? about images */
+.image{
+    margin: 30px 0px;
+    border-radius: 50%;
+
+}
+/* todo third page */
+.third-container{
+    background-color: antiquewhite;
+    margin: 0px;
+    height: 69%;
+    width: 100vw;
+}
+/* ?programs */
+.third-page{
+    display: flex;
+    column-gap: 50px;
+    margin: 20px 10px 0px 30px;
+    padding: 20px 10px 20px 30px;
+    justify-content: center;
+}
+@media screen and (max-width:600px){
+    .third-page{
+        flex-wrap: wrap;
+    }
+}
+/* ?program pic */
+.pic{
+    margin: 45px 10px;
+    border-radius: 50%;   
+}
+/* ?program para */
+.para-2{
+    font-family: "poppins";
+}
+/* todo fourth page */
+.fourth-container{
+    background-color: rgb(204, 244, 232);
+    margin: 0px;
+    height: 69%;
+    width: 100vw;
+}
+/* ?features */
+.feature{
+    font-family: "poppins";
+    display: flex;
+    flex-wrap: wrap;  
+    column-gap: 10px;
+    text-align: center;  
+    justify-content: center;
+    row-gap: 10px;
+}
+/* ?services */
+.service{
+    border: 2px solid black;
+    color: black;
+    padding: 30px;
+    margin: 20px 5px;
+}
+.service:hover{
+    background-color: rgba(217, 214, 214, 0.732);
+    color: rgb(204, 0, 255);
+}
+/* ?bottom heading */
+h3{
+    color: black;
+    text-align: center;
+    font-family:"Montserrat";
+    margin: 0px 10px;
+    padding: 30px 0px 20px;
+}
+/* ?trail part */
+.trial{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "poppins";
+}
+/* ?mail & trail button */
+.mail-box{
+    margin: 20px 5px 30px;
+    padding: 10px 15px;
+    outline: none;
+}
+ .box-btn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    outline: whitesmoke;
+}
+/* todo fifth page */
+.fifth-container{
+    background-color: azure;
+    margin: 0px;
+    height: 69%;
+    width: 100vw;
+    font-family: "poppins";
+}
+/* ?name & mail box */
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.name-box{
+    margin: 5px 10px;
+    padding: 10px 20px;
+}
+/* ?text area box */
+.two{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.text-area{
+    margin: 0px 10px 10px;
+    padding: 10px 20px 40px;
+    width: 420px;
+}
+@media screen and (max-width:440px){
+    .text-area{
+        width: 200px;
+    }
+}
+/* ?checkbox */
+.three{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.check{
+    margin: 20px 70px 10px;
+  
+}
+/* ?message button */
+.msg-btn{
+    margin: 10px 0px 10px 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.msg-btn:hover{
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+/* ?address */
+.address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+/* ?last content */
+.last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 0px;
+}
+/* ?last num & mail */
+.left{
+    margin-right: 10px;
+
+}
+/* ?last icons */
+.right{
+    text-align: center;
+    margin: 10px 3px 0px;
+    cursor: pointer;
+}
